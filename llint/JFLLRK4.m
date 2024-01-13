@@ -18,7 +18,7 @@ function [y,kmin,kmax,ksum,nexpo,breakcont, nfevals]  = JFLLRK4(odeFcn,tt,yo,rto
 %  breakcont: breakdown counter
 %    nfevals: number of function evaluations
 
-kdmax = 30;
+kdmax = 50;
 kdmin = 4;
 d=length(yo);
 n=length(tt);

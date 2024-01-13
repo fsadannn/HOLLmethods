@@ -84,6 +84,7 @@ void mexFunction(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])
     poldegree = (mwSize)q;
 
     s = mxGetScalar(prhs[2]);
+    s = ceil(s);
 
     total = nrowsA * ncolumnsA;
     numberofbytes = total * sizeof(double);
