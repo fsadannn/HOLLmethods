@@ -17,6 +17,8 @@ function [y,kmin,kmax,ksum,nexpo,breakcont, nfevals]  = JFLLRK4(odeFcn,tt,yo,rto
 %      nexpo: number of exponential matrix
 %  breakcont: breakdown counter
 %    nfevals: number of function evaluations
+%
+% Copyright (c) 2022, Frank S. Naranjo-Noda
 
 kdmax = 50;
 kdmin = 4;

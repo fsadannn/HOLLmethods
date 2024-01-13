@@ -1,3 +1,10 @@
+% This script generates the Tables 5-8 of [1] illustrating the performance 
+% of the Jacobian-free HOLL scheme JFLLRK4 for different step-sizes. 
+%
+% [1] Jacobian-free High Order Local Linearization methods for large systems of initial value problems
+%     by F.S. Naranjo-Noda and J.C. Jimenez
+%
+
 disp('Warning: ');
 disp('  If the user does not have license for the Parallel Computing Toolbox,') 
 disp('  replace the "parfor" by "for" in the files ')

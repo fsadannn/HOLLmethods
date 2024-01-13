@@ -1,5 +1,7 @@
 function initllPaths(shouldIncludeTests)
 
+% Copyright (c) 2022, Frank S. Naranjo-Noda
+
 if nargin==0
     shouldIncludeTests=false;
 end
@@ -28,7 +30,7 @@ dirs = cat(2,krilov_pth,c_code_pth);
 
 for i = length(dirs):-1:1
     dir = [ relpath 'llint' filesep dirs{i} ];
-    if isempty(strfind(path, [ dir pathsep ]))
+    if ~contains(path, [ dir pathsep ])
         if length(dir) > 1 && strcmp(dir(end-1:end), '//')
             addpath(genpath(dir(1:end - 2)));
         else

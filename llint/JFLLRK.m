@@ -25,6 +25,7 @@ function y = JFLLRK(odeFcn,tt,yo,rtol,atol,kdim, pade, ...
 % output
 %               y: solution
 %
+% Copyright (c) 2022, Frank S. Naranjo-Noda
 
 d=length(yo);
 n=length(tt);
