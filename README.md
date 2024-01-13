@@ -1,5 +1,7 @@
 # High Order Local Linearization methods
 
+## This repo hold the original source code used for the Local Linearization papers
+
 This Matlab toolbox provides the <strong>Jacobian-free High Order Local Linearization (HOLL)</strong> schemes JFLLRK and JFLLRK4 described in [1] for the integration of large systems of initial value problems.
 
 [1] Jacobian-free High Order Local Linearization methods for large systems of initial value problems
