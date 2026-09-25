@@ -4,8 +4,7 @@
 
 This Matlab toolbox provides the <strong>Jacobian-free High Order Local Linearization (HOLL)</strong> schemes JFLLRK and JFLLRK4 described in [1] for the integration of large systems of initial value problems.
 
-[1] Jacobian-free High Order Local Linearization methods for large systems of initial value problems
-    by F.S. Naranjo-Noda and J.C. Jimenez
+[1] [Naranjo-Noda FS, Jimenez JC. (2023) Jacobian-free high order local linearization methods for large systems of initial value problems. Applied Numerical Mathematics, 187, 158-75](https://doi.org/10.1016/j.apnum.2023.02.009)
 ## <strong>Jacobian-free HOLL</strong>
 
 ### [```JFLLRK4```](./llint/JFLLRK4.m) fixed step-size Jacobian-free Locally Linearized Runge-Kuttta scheme of order 4
